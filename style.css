@@ -1,0 +1,110 @@
+
+/* CONFIGURAÇÕES GERAIS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+
+/* MENU */
+
+.navbar {
+    padding: 18px;
+}
+
+
+/* APRESENTAÇÃO */
+
+.inicio {
+    background: linear-gradient(135deg, #101827, #263d5c);
+    color: white;
+    padding: 120px 20px;
+    min-height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inicio h1 {
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.inicio h1 span {
+    color: #58a6ff;
+}
+
+.inicio h3 {
+    margin-bottom: 20px;
+}
+
+.inicio p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 17px;
+}
+
+
+/* SEÇÕES */
+
+.secao {
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.secao h2 {
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+
+/* CARDS */
+
+.card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+
+/* RODAPÉ */
+
+footer {
+    padding: 20px;
+}
+
+
+/* CELULARES */
+
+@media (max-width: 768px) {
+
+    .inicio {
+        padding: 80px 20px;
+    }
+
+    .inicio h1 {
+        font-size: 30px;
+    }
+
+    .inicio h3 {
+        font-size: 20px;
+    }
+
+}
